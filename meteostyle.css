@@ -178,10 +178,10 @@ input {
 	input {
 		height: 2.05em;
 		width: 2.5em;
-		border-radius: 3px;
+		border-radius: 8px;
 		box-shadow: none;
 		border: none;
-		background-color: rgba(255, 255, 255, 0.3);
+		background-color: #0202024d;
 		font-family:  'Roboto', sans-serif;
 		color: rgba(255, 255, 255, 1);
 		text-align: center;
