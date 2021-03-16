@@ -31,15 +31,24 @@ body{
 }
 
 button {
-  border-radius: 3px;
+  border-radius: 5px;
   border: 0px;
   background-color: rgba(255, 255, 255, 0.6);
   width: 200px;
   height: 2.2em;
-  font-family:  'Roboto', sans-serif;
-  font-size: 1em;
+  font-family: 'Concert One', cursive;
+  font-size: 1.2em;
   font-weight: bolder;
   color: rgb(78, 74, 75);
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: transform 450ms, background-color 300ms 150ms, color 900ms;
+}
+
+button:not(:hover) {
+  transition: transform 450ms, background-color 1000ms 150ms, color 700ms;
 }
 
 .answer {
